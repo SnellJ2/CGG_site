@@ -1,0 +1,118 @@
+.shop-box {
+    grid-column: 1 / 1;
+    grid-row: 2 / 1;
+    align-self:center;
+}
+a{
+    color: blue;
+}
+.about {
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+button[type="submit"] {
+    align-self: flex-end;
+}
+
+.catalog{
+  
+    padding-top: 100px;
+    
+    background-color: #79604c;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 100px;
+    justify-content: center;
+
+}
+.catMain{
+    background-color: #79604c;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.catItem{
+    background-color: white;
+    height: 600px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    
+
+}
+.contain{
+    border-style: solid;
+    border-color: black;
+    width: 800px;
+    height: 80px;
+    border-radius: 50px/40px;
+    background-color: white;
+}
+
+.login{
+    background-color: #79604c;
+    
+
+}
+
+.submission{ /*styling for submission. */
+    width: 400px; 
+    height: 500px;
+    background-color: white;
+    top: 50%; /*sets it 50% from the top and left side of screen */
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); /*transforms it on itself to center itself in the screen */
+    border-radius: 25%; /*gives it the roundish shape*/
+    border-style: solid;
+    border-color: black;
+}
+
+.shop{ /*styling for submission. */
+    width: 400px; 
+    height: 500px;
+    background-color: white;
+    top: 50%; /*sets it 50% from the top and left side of screen */
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); /*transforms it on itself to center itself in the screen */
+    border-radius: 25%; /*gives it the roundish shape*/
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 1fr 0% 1fr;
+    border-color: black;
+}
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 400px; /* optional */
+    margin: 0 auto; /* center the form horizontally */
+    position: absolute; /* optional */
+    top: 50%; /* center the form vertically */
+    left: 50%; /* center the form horizontally */
+    transform: translate(-50%, -50%); /* offset the form by half of its own height and width */
+}
+
+.form-group {
+    flex: 1;
+}
+
+
+
+.labelLeft{
+    float: left;
+}

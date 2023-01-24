@@ -1,0 +1,37 @@
+a:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  filter: blur(0);
+
+}
+a{
+  transform: transform .2s;
+}
+.box:hover{
+  background-color: beige;
+  transform: scale(1.1);
+  filter: blur(0);
+}
+.Navbar{
+  background-color: #79604c;;
+}
+.row {
+  padding-top: 15px;
+  background-color: #79604c;
+}
+
+.box {
+  color: black;
+  background-color: white;
+  border-radius: 50px/40px;
+
+  transition: transform .2s;
+
+  border-style: solid;
+  border-color: black;
+  min-height: 50px;
+  font-size: 1.5rem;
+
+
+}
+

@@ -1,16 +1,15 @@
 .App {
   text-align: center;
+  --text-color: white;
+  height: 100%;
+  width: 100%;
+
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +23,55 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  list-style: none;
+  padding: 0;
+  margin: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header li{
+  margin-right: 20px;
+}
+
+.center{
+    display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+:root {
+  background-color: #79604c;
+  --bg: #B87D4B;
+  --bg-accent: #523A34;
+  --text-color: #CFF27E;
+  --nav-size: 80px;
+  --border: 1px solid #523A34;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer {
+  background-color: #79604c;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
 }
