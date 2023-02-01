@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
         </div>
         
-        <div class="col-2">
+        <div class="col">
 
           <div className="box">
      
