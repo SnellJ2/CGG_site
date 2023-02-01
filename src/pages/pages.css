@@ -19,7 +19,7 @@ a{
 
 }
 h1{
-    font-size: calc((5vw+5vh)/2);
+    font-size: calc((2.5vw+2.5vh)/2);
 
 }
 button[type="submit"] {
